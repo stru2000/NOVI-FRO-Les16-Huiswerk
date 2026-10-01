@@ -1,0 +1,38 @@
+.pokemon-card {
+    width: 8.5rem;
+    padding: 0.75rem;
+    background-color: white;
+    border-radius: 0.2rem;
+    text-align: center;
+}
+
+.pokemon-card h2 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.pokemon-card img {
+    width: 5rem;
+    height: 5rem;
+    margin: 0 auto 0.5rem;
+    object-fit: contain;
+}
+
+.pokemon-card p {
+    font-size: 0.75rem;
+    margin: 0.4rem 0;
+    font-weight: bold;
+}
+
+.abilities {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.abilities span {
+    background-color: #eee;
+    padding: 0.15rem 0.3rem;
+    border-radius: 0.15rem;
+    font-size: 0.7rem;
+}
